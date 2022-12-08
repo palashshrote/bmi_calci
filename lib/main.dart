@@ -4,7 +4,7 @@ import 'input_page.dart';
 void main() => runApp(BMICalculator());
 
 class BMICalculator extends StatelessWidget {
-  static const MaterialColor kPrimaryColor = const MaterialColor(
+  final MaterialColor kPrimaryColor = MaterialColor(
     0xFF1c0b2d,
     const <int, Color>{
       50: const Color(0xFF1c0b2d),
